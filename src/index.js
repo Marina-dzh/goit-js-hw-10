@@ -29,7 +29,12 @@ function onSearch() {
         createMarkupCard(data);
             return;
         } else
-        createMarkupList(data)})
+            createMarkupList(data)
+    })
+        .catch(error => {
+ Notiflix.Notify.failure('Oops, there is no country with that name');
+    
+        })
 }
 
 
@@ -63,3 +68,5 @@ function createMarkupList(arr) {
     </li> ` ).join('')
     refs.list.innerHTML = markupList
 }
+
+
