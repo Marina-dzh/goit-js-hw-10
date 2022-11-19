@@ -18,3 +18,47 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+ul{
+  list-style: none;
+  padding: 0;
+}
+
+.item{
+  margin: 5px;
+  margin-left: 0;
+  padding: 5px 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border: 1px solid;
+  border-radius: 8px;
+  border-color: #a39d9dae;
+  background-color: rgba(255, 228, 196, 0.59);
+}
+
+.country-list{
+  width: 400px;
+  margin: auto;
+  
+}
+.country-card{
+  width: 400px;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid;
+    border-radius: 8px;
+    border-color: #a39d9dae;
+    background-color: rgba(255, 228, 196, 0.59);
+}
+.value{
+  text-decoration: underline;
+  font-size: x-large;
+}
+.field{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
